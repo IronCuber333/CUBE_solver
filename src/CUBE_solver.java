@@ -4,9 +4,9 @@ import java.util.ArrayList;
 import java.util.function.Function;
 
 public class CUBE_solver {
-    public static void main(String[] args) throws Exception {
+    public static void main (String[] args) throws Exception {
         String scramble = "R' U' F U R2 B2 D' F2 D2 L2 D' L2 U2 R U' B' F D2 R D B2 D U' R' U' F";
-        solveCube (scramble, 3, 6, 6, 1);
+        solveCube (scramble, 5, 7, 5, 5);
         
         /*ConstructMove moves = new ConstructMove ();
         Cube cube = new Cube (moves);
